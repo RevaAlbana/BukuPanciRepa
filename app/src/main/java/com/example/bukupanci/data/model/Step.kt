@@ -21,5 +21,6 @@ data class Step(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val recipeId: Int,
     val stepNumber: Int,
+    val stepTitle: String,
     val stepDescription: String
 )

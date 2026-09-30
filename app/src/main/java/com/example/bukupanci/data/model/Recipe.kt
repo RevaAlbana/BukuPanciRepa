@@ -10,5 +10,7 @@ data class Recipe(
     val imageSource: String? = null,
     val cookingTimeEstimation: Int? = null,
     val description: String? = null,
-    val updatedAt: Long = 0L
+    val updatedAt: Long = 0L,
+    val servings: Int? = null,
+    val isFavorite: Boolean = false
 )
